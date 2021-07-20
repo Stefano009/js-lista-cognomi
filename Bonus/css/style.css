@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background: radial-gradient(circle, rgba(240,251,63,1) 0%, rgba(88,214,102,0.5382528011204482) 30%, rgba(182,82,82,0.5830707282913166) 68%, rgba(252,155,70,1) 100%);
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+.container {
+    margin: 200px auto;
+    width: 50%;
+    background-color: red;
+    color: yellow;
+    padding: 10rem;
+}
+.container ul>li {
+    list-style: none;
+    padding: 2rem 0;
+}
