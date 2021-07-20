@@ -12,7 +12,7 @@ var surnamesList = ["Bianchi", "Neri", "Rossi", "Verdi", "Gialli"];
 var sortedSurnameList = [];
 // forced the input with capital first letter to maintain the code working
 var userSurnameCapitalLetter;
-userSurnameCapitalLetter = userSurname.charAt(0).toUpperCase() + userSurname.slice(1);
+userSurnameCapitalLetter = userSurname.charAt(0).toUpperCase() + userSurname.slice(1).toLowerCase();
 //push it in an array
 surnamesList.push(userSurnameCapitalLetter);
 console.log(surnamesList);
